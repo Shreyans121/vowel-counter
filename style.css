@@ -1,0 +1,55 @@
+*{
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 960px;
+  width: 100%;
+  padding: 5% 3%;
+  margin: 0 auto;
+  font-family: 'Sansita Swashed', cursive;
+}
+.heading {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: transparent;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.btn {
+  background: #5467d3;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 12px 36px;
+  margin-left: -96px;
+}
+.btn:hover {
+  background: #0624ce;
+}
+.btn:active {
+  background: #7f8ff4;
+}
+
+.input-box {
+  width: 360px;
+  background: #fff;
+  color: #a3a3a3;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+}
